@@ -1,5 +1,5 @@
 {
-  "name": "kornrunner/ethereum-address",
+  "name": "iroge/ethereum-address",
   "description": "Pure PHP Ethereum Address Generator / Validator",
   "type": "library",
   "require": {
@@ -23,8 +23,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Boris Momčilović",
-      "email": "boris.momcilovic@gmail.com"
+      "name": "",
+      "email": ""
     }
   ]
 }
