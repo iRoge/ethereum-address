@@ -12,12 +12,12 @@
   },
   "autoload": {
     "psr-4": {
-      "kornrunner\\Ethereum\\": "src"
+      "IRoge\\Ethereum\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "kornrunner\\Ethereum\\": "test"
+      "IRoge\\Ethereum\\": "test"
     }
   },
   "license": "MIT",
