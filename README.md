@@ -1,9 +1,5 @@
-[![PHP](https://github.com/olegabr/php-ethereum-address/actions/workflows/php.yml/badge.svg)](https://github.com/olegabr/php-ethereum-address/actions/workflows/php.yml)
-[![codecov](https://codecov.io/gh/olegabr/php-ethereum-address/branch/main/graph/badge.svg)](https://codecov.io/gh/olegabr/php-ethereum-address)
-[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/olegabr/php-ethereum-address/blob/main/LICENSE)
-
 ```lang=bash
-$ composer require olegabr/ethereum-address
+$ composer require iroge/ethereum-address
 ```
 
 ## Usage
@@ -15,7 +11,7 @@ Create a new address:
 
 require_once 'vendor/autoload.php';
 
-use kornrunner\Ethereum\Address;
+use IRoge\Ethereum\Address;
 
 $address = new Address();
 
@@ -37,7 +33,7 @@ Or load one from private key:
 
 require_once 'vendor/autoload.php';
 
-use kornrunner\Ethereum\Address;
+use IRoge\Ethereum\Address;
 
 $privateKey = '33eb576d927573cff6ae50a9e09fc60b672a8dafdfbe3045c7f62955fc55ccb4';
 $address = new Address($privateKey);
@@ -56,9 +52,3 @@ $address->getPublicKey();
 ## License
 
 MIT
-
-## Crypto
-
-[![Ethereum](https://user-images.githubusercontent.com/725986/61891022-0d0c7f00-af09-11e9-829f-096c039bbbfa.png) 0x9c7b7a00972121fb843af7af74526d7eb585b171][Ethereum]
-
-[Ethereum]: https://etherscan.io/address/0x9c7b7a00972121fb843af7af74526d7eb585b171 "Donate with Ethereum"

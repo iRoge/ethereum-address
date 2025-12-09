@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace kornrunner\Ethereum;
+namespace IRoge\Ethereum;
 
 use InvalidArgumentException;
 use kornrunner\Keccak;
